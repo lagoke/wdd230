@@ -1,0 +1,426 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+header {
+    background-color: #eb721a;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+
+header h3 {
+    display: block;
+    font-size: 1.3rem;
+}
+
+header .name {
+    display: block;
+    margin: 0;
+    color: #ffffff;
+
+}
+
+
+header .name p {
+    font-size: .7rem;
+    margin-top: -15px;
+}
+
+header .social {
+    display: flex;
+    padding: 2px;
+
+}
+
+header img {
+    margin-top: 10px;
+    margin-left: 8px;
+    height: 80px;
+}
+
+header .social img {
+    margin: 7px;
+    height: 25px;
+    width: 25px;
+}
+
+nav button {
+    margin: .1rem 2vw;
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 2rem;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    padding: .8rem 2vw;
+    color: #ffffff;
+    font-size: .8rem;
+}
+
+nav ul li a:hover {
+    background-color: #5e6472;
+    color: #ffffff;
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+}
+
+
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+    margin: 1px 1px 20px 1px;
+}
+
+/*section - welcome*/
+.welcome {
+
+    position: relative;
+    padding: 0;
+    margin: 10px auto;
+}
+
+h1 {
+    position: absolute;
+    left: 20px;
+    font-family: 'Miltonian Tattoo', 'Poppins';
+    font-size: 1.5rem;
+    color: #0000ee;
+
+}
+
+.join-link {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Poppins";
+}
+
+.button-button {
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    background-color: #5e6472;
+    color: #ffffff;
+    border: none;
+    padding: 5px;
+    transform: scale(1);
+    transition: transform 0.3s;
+}
+
+.button-button:hover {
+    transform: scale(1.03);
+    background-color: #5e6472;
+    color: #ffffff;
+}
+
+.small {
+    position: absolute;
+    bottom: 15px;
+    color: #ffffff;
+    left: 15px;
+    display: block;
+}
+
+.medium,
+.large {
+    display: none;
+}
+
+
+/*SECTION - RIBBON CUTTING*/
+.ribbon-cutting {
+    background-color: #eb721a;
+    margin: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.ribbon-cutting a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.diamond-shack {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+}
+
+
+
+/*section - weather*/
+.weather {
+    background-color: #eb721a;
+    margin: 10px 50px 10px 50px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.weather-info {
+    display: flex;
+    justify-content: center;
+
+}
+
+.weather-info h3 {
+    margin-left: 50px;
+}
+
+/* .wind-speed,
+.wind-chill {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 10px;
+} */
+
+
+
+/*section - news-release*/
+.news-release {
+    background-color: #eb721a;
+    margin: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.news-release p {
+    margin: 15px;
+}
+
+
+
+/*hr declaration for all*/
+.weather hr,
+.spotlight1 hr,
+.spotlight2 hr {
+    width: 80%;
+}
+
+/*h3 declaration for all*/
+.news-release h3,
+.spotlight1 h3,
+.spotlight2 h3,
+.weather h3,
+.ribbon-cutting h3 {
+    font-size: 1.2rem;
+    font-family: 'Poppins';
+}
+
+
+
+/*section - spotlight*/
+.main-spotlight {
+    background-color: #eb721a;
+    margin: 10px 50px 10px 50px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.spotlight1 {
+    background-color: #eb721a;
+    margin: 15px;
+    text-align: center;
+}
+
+.spotlight1 a,
+.spotlight2 a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*hover for emails and the "more info" in the ribbon cutting section*/
+.spotlight1 a:hover,
+.spotlight2 a:hover,
+.ribbon-cutting a:hover {
+    color: #0000EE;
+}
+
+/*section - Join us*/
+.main-join {
+    display: none;
+}
+
+.spotlight2 {
+    background-color: #eb721a;
+    margin: 15px;
+    text-align: center;
+}
+
+.spotlight3 {
+    background-color: #eb721a;
+    margin: 15px;
+    display: none;
+}
+
+
+
+
+header div .currentDate {
+    color: #fff;
+    font-size: .6rem;
+    margin-top: 90px;
+}
+
+.footer_img img {
+    height: 70%;
+    margin-bottom: -60px;
+}
+
+.main-footer {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+
+footer {
+    background-color: #eb721a;
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+
+
+}
+
+.footer_name {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+footer img {
+    height: 50%;
+    width: 50%;
+}
+
+footer p {
+    font-size: .8rem;
+}
+
+.copyright p {
+    font-size: .6rem;
+}
+
+footer hr {
+    width: 90%;
+}
+
+#currently {
+    padding-bottom: 30px;
+}
+
+
+/*DISCOVER PAGE CSS DECLARATION*/
+.main-discover {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-family: 'Miltonian Tattoo', 'Poppins';
+    font-size: 1.2rem;
+    color: #0000ee;
+    text-align: center;
+}
+
+
+picture {
+    width: 100%;
+    height: auto;
+
+
+}
+
+picture img {
+    width: 100%;
+}
+
+.discover-div {
+    margin-bottom: 20px;
+}
+
+h5 {
+    text-align: center;
+    font-family: "Montserrat";
+    color: #0000EE;
+
+}
+
+#visit-info {
+    color: red;
+    text-align: center;
+}
+
+table,
+th,
+td {
+    border: 1px solid #0000EE;
+}
+
+table {
+    width: 80%;
+}
+
+
+
+
+label span {
+    color: #ff0000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,301 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+@media only screen and (min-width: 60rem) {
+
+
+    footer .copyright {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    footer .copyright p {
+        font-size: .7rem;
+        margin: 7px;
+    }
+
+    header .social img {
+        height: 45px;
+        width: 45px;
+        margin: 10px;
+
+    }
+
+    .name h3 {
+        font-size: 2rem;
+        margin-bottom: 18px;
+    }
+
+    header .name p {
+        font-size: 1rem;
+    }
+
+
+    footer img {
+        height: 300px;
+        width: 20%;
+        padding-bottom: 0px
+    }
+
+
+    /*Display Msg*/
+    #group-msg {
+        font-size: 1rem;
+        color: #fff;
+        background-color: #5e6472;
+        text-align: center;
+        font-family: 'Poppins';
+        margin: 10px 90px 0px 90px;
+       
+    }
+
+    
+
+    /*Main declarations*/
+    main {
+        display: grid;
+        grid-template-columns: 25% 50% 25%;
+        margin: 25px 35px 75px 35px;
+
+
+
+    }
+
+    .welcome {
+        grid-column: 2/3;
+        grid-row: 1/3;
+
+    }
+
+    .ribbon-cutting {
+        grid-column: 1/2;
+        grid-row: 1;
+        margin-top: 30px;
+    }
+
+    .weather {
+        grid-row: 2;
+        grid-column: 1/2;
+        margin-bottom: 25px;
+        margin-top: -10px;
+
+    }
+
+    .news-release {
+        grid-column: 2/3;
+        grid-row: 3;
+    }
+
+    .main-join {
+        grid-column: 1/2;
+        grid-row: 3;
+    }
+
+    .main-spotlight {
+        grid-column: 3/4;
+        grid-row: span 3;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 30px;
+    }
+
+    .spotlight3 {
+        display: block;
+        text-align: center;
+    }
+
+    .spotlight3 a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .spotlight3 a:hover {
+        color: #0000EE;
+    }
+
+    picture {
+        margin: 10px;
+    }
+
+    picture img {
+        width: 100%;
+        object-fit: cover;
+        padding: 0px;
+        margin: 1% 0 0 0;
+    }
+
+    .large {
+        display: block;
+        position: absolute;
+        color: #fff;
+        bottom: 25px;
+        left: 20px;
+    }
+
+    .medium {
+        display: none;
+    }
+
+    .button-button {
+        position: absolute;
+        right: 80px;
+        bottom: 80px;
+    }
+
+
+    nav button {
+        display: none;
+        /*Removes the hamburger button from a large view*/
+
+    }
+
+    nav ul#primaryNav {
+        display: flex;
+        justify-content: space-evenly;
+        /*Centers the nav with space-between, evenly or around*/
+        margin: 30px 7px 0px 0px;
+
+    }
+
+    header div .currentDate {
+        color: #fff;
+        font-size: 1rem;
+        margin-top: 90px;
+    }
+
+    .main-footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    footer {
+        background-color: #eb721a;
+    }
+
+    picture img {
+        width: 100%;
+        padding: 0px;
+        margin:1% 0 0 0;
+
+    }
+    .main-discover img{
+        width: 50%;
+        padding: 0px;
+        margin: 0 0 0 25%;
+    }
+
+    .discover-div p {
+        margin: 5px 500px 0px 500px;
+    }
+
+   /* form {
+        
+        position: relative;
+        min-width: 640px;
+        top: 0%;
+        left: -55%;
+        margin-top: 0px;F
+        margin-bottom: -800px;
+        padding: 90px;
+        transform: translate(-90%, -107%);
+        float: left;
+    } */
+    /*.memberBenefits {
+        width: 30%;
+        float: right;
+        transform: translate(-25%, 5%);
+        position: relative;
+    }*/
+    .join-form-and-otherinfo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      
+   .join-form {
+    grid-column: 1;
+    margin: -1000px 0px 0px -1500px;
+   }
+   
+    form {
+        padding: 40px 50px 30px 50px;
+        grid-column: 1;
+        margin-top: 310px;
+    }
+   
+   .memberBenefits {
+    grid-column: 2/3;
+    
+   
+   }
+  .benefits-free, .benefits-bronze, .benefits-silver, .benefits-gold {
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+  }
+    
+    .fill-form {
+        text-align: center;
+        font-family: "Poppins";
+        margin-top: 50px;
+        font-size: 0.1rem;
+        display: none;
+    }
+
+    .join-link {
+        text-decoration: none;
+        color: #fff;
+        font-family: "Poppins";
+    }
+    
+
+  
+    .benefits-btn {
+        display: none;
+    }
+
+    #businessDescription {
+        padding: 70px;
+    }
+
+  #directory .company-list{
+   display:grid;
+   grid-template-columns: 1fr 1fr;
+   
+  }
+  #directory {
+    width: 100%;
+    margin: 120px 0px 100px 0px;
+  }
+
+   #directory button {
+left: 150%;
+top: -5%;
+position: relative;
+}
+
+  
+  .company-list li:hover {
+    transform: scale(1.1);
+  }
+  .company-list li{
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0 2px 0 #006600, 
+    0 3px 0 #005900, 
+    0 4px 0 #004c00, 
+    0 6px 0 #003300, 
+    0 8px 0 #002600, 
+    0 10px 0 #001900, 
+    0 12px 0 #000d00;
+  }
+
+  
+  /*Contact form declaration*/
+ 
+
+ 
+}
