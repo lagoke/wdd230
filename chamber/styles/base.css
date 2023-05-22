@@ -99,8 +99,36 @@ nav ul.open {
     display: block;
 }
 
+#hamburgerBtn {
+    margin-top: 5px;
 
 
+
+}
+
+#hamburgerBtn span:nth-child(1) {
+    display: block;
+
+}
+
+#hamburgerBtn span:nth-child(2) {
+    display: none;
+}
+
+/*When the button is open, the hamburger does not display
+It is the reverse of the 2 declarations above*/
+#hamburgerBtn.open span:nth-child(1) {
+    display: none;
+}
+
+/*When the button is open, the close displays as block*/
+#hamburgerBtn.open span:nth-child(2) {
+    display: block;
+}
+
+/*     #ec5b04; darker color  */
+/*     #eb721a;   lighter*/
+/*JS Display Message*/
 
 
 main {
@@ -205,13 +233,13 @@ h1 {
     margin-left: 50px;
 }
 
-/* .wind-speed,
+.wind-speed,
 .wind-chill {
     display: flex;
     justify-content: space-around;
     margin-left: 10px;
     margin-right: 10px;
-} */
+}
 
 
 
@@ -250,9 +278,10 @@ h1 {
 
 /*section - spotlight*/
 .main-spotlight {
-    background-color: #eb721a;
-    margin: 10px 50px 10px 50px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 70px 10px;
+    border: 1px solid #eb721a;
     color: #ffffff;
 }
 
@@ -367,16 +396,10 @@ h2 {
 }
 
 
-picture {
-    width: 100%;
-    height: auto;
 
 
-}
 
-picture img {
-    width: 100%;
-}
+
 
 .discover-div {
     margin-bottom: 20px;
@@ -406,21 +429,12 @@ table {
 
 
 
-
-label span {
-    color: #ff0000;
+.footer_info a {
+    text-decoration: none;
+    color: #fff;
+    font-size: .8rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer_info a:hover {
+    color: #0000EE;
+}

@@ -24,7 +24,7 @@
         rel="stylesheet">
 
     <!--Style Sheets - Normalize, Base, Medium and Large-->
-
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
@@ -79,54 +79,84 @@
                 <source srcset="images/optimized_medium_hero_img.jpg" media="(min-width: 35rem) and (max-width: 59rem)">
                 <!--<p class="medium">Medium Image</p>-->
                 <img src="images/optimized_small_hero_img.jpg" alt="Picture of a team talking">
-                <!--<h4 class="small">Small Image</h4>-->
+                <!--<h4 class="small">Small Image</h4>  <a class="join-link" href="join.html">Join the Chamber</a> -->
             </picture>
-            <button class="button-button" type="button"> <a class="join-link" href="join.html">Join the Chamber</a> </button>
+            <button class="button-button" type="button"> >Join the Chamber </button>
         </section>
 
         <section class="ribbon-cutting">
-            <h3>Event</h3>
-            
-            
-            
+            <h3>Ribbon Cutting</h3>
+            <div class="diamond-shack">
+                <img src="images/diamond_FILL0_wght400_GRAD0_opsz48.png" alt="diamond icon">
+                <h4>The Diamond Shack</h4>
+            </div>
+            <p>Join us for the grand opening of the </p>
+            <a href="join.html"> <i>more info...</i></a>
         </section>
 
         <section class="weather">
             <h3>Weather</h3>
-            
+            <div class="weather-info">
+                <img src="images/resized_medium/cloudy.png" id="weather-icon"  alt="weather icon">
+                <h3><span id="temp-value"></span>&deg;F</h3>
+            </div>
+            <p id="weather-desc"></p>
+            <hr>
+            <div class="wind-speed">
+                <p>Wind Speed: </p>
+                <p><span id="wind-speed-value"></span>km/h</p>
+            </div>
+            <div class="wind-chill">
+                <p>Wind Chill:</p>
+                <p id="wind-chill-display"> </p>
+            </div>
 
         </section>
 
         <section class="news-release">
             <h3>News Release</h3>
-            
+            <p>The Atlanta Chamber of Commerce is involved in a variety of community programs and initiatives,
+                such as education and workforce development programs, transportation planning,
+                and sustainability efforts. The chamber recognizes that a healthy and vibrant business
+                community is essential for the overall success and well-being of the region.
+            </p>
         </section>
 
         <section class="main-spotlight">
             <div class="spotlight1">
-                <h3>spotlight1</h3>
-                
-               
-               
-            </div>
-            <div class="spotlight2">
-                <h3>spotlight2</h3>
-                
-               
-               
-            </div>
-            <div class="spotlight3">
-                <h3>spotlight3</h3>
-                
+                <h3>SAVANNAH</h3>
+                <img src="images/resized/savannah.jpg" alt="brand logo">
+                <p>We are young at heart</p>
                
                 <hr>
-                <a href="https://www.peachtreepetals.com/" target="_blank"> <i></i></a>
-                <p class="phone-number"></p>
+                <a href="https://www.cycletechnique.com/us/" target="_blank"> <i>www.savannahbee.com</i></a>
+                <p class="phone-number">(404) 343 1568</p>
+            </div>
+            <div class="spotlight2">
+                <h3>ZOOM DRAIN</h3>
+                <img src="images/resized/zoomdrain.jpg" alt="brand logo">
+                <p>Count on us to take care of you</p>
+               
+                <hr>
+                <a href="https://zoomdrain.com/" target="_blank"> <i>www.zoomdrain.com</i></a>
+                <p class="phone-number">(706) 740 3582</p>
+            </div>
+            <div class="spotlight3">
+                <h3>CYCLE TECHNIQUES</h3>
+                <img src="images/resized/cycletech.jpg " alt="brand logo">
+                <p>We will get you there</p>
+               
+                <hr>
+                <a href="https://www.peachtreepetals.com/" target="_blank"> <i>www.cycletechnique.com</i></a>
+                <p class="phone-number">(404) 432 5841</p>
             </div>
         </section>
         <section class="main-join">
-            <button class="join-us" type="button"> <a  class= "join-link" href="join.html">Join Us</a></button>
-            
+            <h3> How to join us</h3>
+           <!--  <h3> <a  class= "join-link" href="join.html">Join Us</a></h3> -->
+           <div> </div>
+            <button class="join-us" type="button">Join us</button>
+            <p>Discover how to join the chamber of commerce and how it will benefit your organization</p>
         </section>
 
     </main>
@@ -154,7 +184,8 @@
         </div>
     </footer>
     <script src="scripts/JS.js"></script>
-    
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/message.js"></script>
 </body>
 
 </html>
