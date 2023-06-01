@@ -1,0 +1,13 @@
+picture {
+    display: flex;
+    flex-direction: column;
+}
+
+picture img {
+    
+    margin: 10px;
+    width: 300px;
+    height: 400px;
+   
+
+}
