@@ -36,6 +36,7 @@ header .name {
     display: block;
     margin: 0;
     color: #ffffff;
+    
 
 }
 
@@ -129,7 +130,17 @@ It is the reverse of the 2 declarations above*/
 /*     #ec5b04; darker color  */
 /*     #eb721a;   lighter*/
 /*JS Display Message*/
+#group-msg {
+    font-size: 0.7rem;
+    color: #fff;
+    background-color: #5e6472;
+    text-align: center;
+    margin: 10px 20px 0px 20px;
+    font-family: 'Poppins';
 
+
+
+}
 
 main {
     display: flex;
@@ -384,6 +395,7 @@ footer hr {
 .main-discover {
     margin-left: 10px;
     margin-right: 10px;
+    margin: 10px;
     display: flex;
     flex-direction: column;
 }
@@ -395,15 +407,25 @@ h2 {
     text-align: center;
 }
 
-
-
-
-
-
-
-.discover-div {
-    margin-bottom: 20px;
+.discover-paragraph {
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 1.2rem;
 }
+
+
+
+picture {
+    width: 100%;
+    height: auto;
+
+
+}
+
+picture img {
+    width: 100%;
+}
+
 
 h5 {
     text-align: center;
@@ -427,6 +449,268 @@ table {
     width: 80%;
 }
 
+
+
+
+/* style form container */
+form {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 200px auto;
+    max-width: 600px;
+    padding: 10px;
+
+
+}
+
+/* style form labels */
+label {
+    display: block;
+    font-size: .8rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* style form inputs */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+
+textarea {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 12px;
+    padding: 8px;
+    width: 100%;
+}
+
+/* style required input labels */
+label span {
+    color: #ff0000;
+}
+
+
+
+/* style form submission button */
+input[type="submit"] {
+    background-color: #5e6472;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+/* style form submission button on hover */
+input[type="submit"]:hover {
+    background-color: #eb721a;
+}
+
+#membershipLevel {
+    font-size: .8rem;
+}
+
+.main-thankyou {
+    text-align: center;
+    font-family: "Poppins";
+    margin: 70px 0px 500px 0px;
+    font-size: 0.9rem;
+}
+
+.fill-form {
+    text-align: center;
+    font-family: "Poppins";
+    margin-top: 50px;
+    font-size: 0.9rem;
+}
+
+
+.memberBenefits {
+    margin: 15px;
+}
+
+.benefits ul li {
+
+    list-style: none;
+    color: #000;
+    font-family: "Poppins";
+    line-height: 1.3rem;
+    margin-bottom: 0px;
+
+
+}
+
+.benefits {
+    margin: 25px;
+    text-align: center;
+    border: none;
+
+}
+
+.benefits-free {
+    border: 3px solid #eb721a;
+    margin: 7px 7px 25px 7px;
+    background-color: #add8e6;
+}
+
+
+
+.benefits-bronze {
+    border: 3px solid #eb721a;
+    margin: 7px 7px 25px 7px;
+    background-color: #cd7f32;
+}
+
+.benefits-silver {
+    border: 3px solid #eb721a;
+    margin: 7px 7px 25px 7px;
+    background-color: #c0c0c0;
+}
+
+.benefits-gold {
+    border: 3px solid #eb721a;
+    margin: 7px 7px 25px 7px;
+    background-color: #ffd700;
+}
+
+
+.benefits-btn {
+
+    background-color: #5e6472;
+    color: #fff;
+
+    font-family: "Georgia";
+    border: none;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 10px 20px 15px 20px;
+}
+
+
+
+
+.offer-text {
+    font-family: "Poppins";
+    text-align: center;
+    margin: 50px 10px 30px 10px;
+}
+
+.text-title {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.sub-type {
+    font-weight: bolder;
+    font-size: 1.6rem;
+    font-family: "Arial";
+}
+
+/*from here */
+
+#display-options {
+    text-align: center;
+   
+   
+}
+  /*to here*/
+
+
+
+.company-list li {
+    border: 1px solid #eb721a;
+    margin: 20px;
+    text-align: center;
+    list-style-type: none;
+    box-shadow: 0 2px 0 #006600, 
+    0 3px 0 #005900, 
+    0 4px 0 #004c00, 
+    0 6px 0 #003300, 
+    0 8px 0 #002600, 
+    0 10px 0 #001900, 
+    0 12px 0 #000d00;
+   
+}
+
+
+
+.company-list li a{
+    text-decoration: none;
+    font-size: 0.7rem;
+    color: #0000ee;
+}
+
+
+
+.company-list li img {
+    margin: 10px;
+    width: 30%;
+   
+}
+.company-address, .phone-number, .membership-level {
+    font-size: 0.8rem;
+    margin: 10px;
+    font-family: "Poppins";
+}
+
+
+
+.main-contact-div{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-contact-div a {
+    text-decoration: none;
+    color: #0000EE;
+    font-family: 'Poppins';
+    font-size: .9rem;
+}
+.main-contact-div a:hover {
+    color: #5e6472;
+}
+.contact-form {
+    bottom: 10%;
+    width: 100%;
+    padding: 30px 10px 20px 10px;
+    background-color: #f2f2f2;
+  
+}
+
+
+input[type = "text"] hover {
+color: #cd7f32;
+}
+.contact-form-div {
+    width: 100%;
+    margin-top: 30px;
+}
+label {
+    margin: 20px 12px 5px 0;
+    display: block;
+    font-size: 0.7rem;
+    width: 100%;
+
+  }
+ 
+
+.contact-headings {
+    
+    font-weight: bold;
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+}
+
+.main-contact-div p {
+    font-family: 'Poppins';
+    font-size: .9rem;
+}
 
 
 .footer_info a {

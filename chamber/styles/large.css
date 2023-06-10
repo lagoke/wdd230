@@ -42,6 +42,19 @@ body {
     }
 
 
+    /*Display Msg*/
+    #group-msg {
+        font-size: 1rem;
+        color: #fff;
+        background-color: #5e6472;
+        text-align: center;
+        font-family: 'Poppins';
+        margin: 10px 90px 0px 90px;
+       
+    }
+
+    
+
     /*Main declarations*/
     main {
         display: grid;
@@ -172,10 +185,63 @@ body {
     }
     .main-discover img{
         width: 50%;
-        padding: 0px;
+        padding: 10px;
         margin: 0 0 0 25%;
     }
 
+
+   /* form {
+        
+        position: relative;
+        min-width: 640px;
+        top: 0%;
+        left: -55%;
+        margin-top: 0px;F
+        margin-bottom: -800px;
+        padding: 90px;
+        transform: translate(-90%, -107%);
+        float: left;
+    } */
+    /*.memberBenefits {
+        width: 30%;
+        float: right;
+        transform: translate(-25%, 5%);
+        position: relative;
+    }*/
+    .join-form-and-otherinfo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      
+   .join-form {
+    grid-column: 1;
+    margin: -1000px 0px 0px -1500px;
+   }
+   
+    form {
+        padding: 40px 50px 30px 50px;
+        grid-column: 1;
+        margin-top: 310px;
+    }
+   
+   .memberBenefits {
+    grid-column: 2/3;
+    
+   
+   }
+  .benefits-free, .benefits-bronze, .benefits-silver, .benefits-gold {
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+  }
+    
+    .fill-form {
+        text-align: center;
+        font-family: "Poppins";
+        margin-top: 50px;
+        font-size: 0.1rem;
+        display: none;
+    }
 
     .join-link {
         text-decoration: none;
@@ -184,14 +250,52 @@ body {
     }
     
 
-  
+   /* #join-main {
+        display: flex;
+        flex-direction: column;
+      
+    }*/
+    .benefits-btn {
+        display: none;
+    }
+
+    #businessDescription {
+        padding: 70px;
+    }
+
+  #directory .company-list{
+   display:grid;
+   grid-template-columns: 1fr 1fr;
    
+  }
+  #directory {
+    width: 100%;
+    margin: 120px 0px 100px 0px;
+  }
 
+   #directory button {
+left: 150%;
+top: -5%;
+position: relative;
+}
 
   
+  .company-list li:hover {
+    transform: scale(1.1);
+  }
+  .company-list li{
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0 2px 0 #006600, 
+    0 3px 0 #005900, 
+    0 4px 0 #004c00, 
+    0 6px 0 #003300, 
+    0 8px 0 #002600, 
+    0 10px 0 #001900, 
+    0 12px 0 #000d00;
+  }
 
   
-  
+  /*Contact form declaration*/
  
 
  
