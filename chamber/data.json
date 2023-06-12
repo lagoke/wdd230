@@ -1,0 +1,185 @@
+[
+    {
+        "company" : "Pedego Electric Bikes",
+        "address" : "414 Bill Kennedy Way Atlanta, GA 30316",
+        "phone": "(404) 975-3915",
+        "websiteurl": "www.pedegoelectricbikes.com/dealers/atlanta/",
+        "logo": "images/resized/pedego.jpg" ,
+        "order": 1,
+        "membershiplevel": "Basic",
+        "slogan": "Movement without Smoke!"
+
+    },
+
+    {
+        "company" : "Cycle Techniques",
+        "address" : "6014 Sandy Springs Cir Ste B Atlanta, GA 30328",
+        "phone": "(404) 432-5841",
+        "websiteurl": "www.cycletechnique.com",
+        "logo": "images/resized/cycletech.jpg",
+        "order": 2,
+        "membershiplevel": "Silver",
+        "slogan": "We'll get you there!"
+
+    },
+    {
+        "company" : "Innovative Mechanic",
+        "address" : "1700 Cumberland Point Dr Ste 17 Marietta, GA 30067",
+        "phone":  "(770) 758-9260",
+        "websiteurl": "www.innovativemechanicalllc.com/",
+        "logo": "images/resized/innovative.jpg",
+        "order": 3,
+        "membershiplevel": "Gold",
+        "slogan": "Your neighborhood Mechanic!"
+
+    },
+    {
+        "company" : "Zoom Drain",
+        "address" : "500 Davis Drive Suite 200 Plymouth Meeting, GA 19462",
+        "phone": "(706) 740-3582",
+        "websiteurl": "www.www.zoomdrain.com",
+        "logo": "images/resized/zoomdrain.jpg",
+        "order": 4,
+        "membershiplevel": "Silver",
+        "slogan": "Draining since 1952!"
+
+    },
+   
+    {
+        "company" : "YOUNG BLOOD",
+        "address" : "777 Memorial Dr SE Ste A104A Atlanta, GA 30316",
+        "phone": "(404) 358-1286",
+        "websiteurl": "www.youngbloodboutique.com",
+        "logo": "images/resized/young_blood.jpg",
+        "order": 5,
+        "membershiplevel": "Gold",
+        "slogan": "We are young at heart!"
+
+    },
+   
+    {
+        "company" : "Brash Coffee Roasters",
+        "address" : "1375 Peachtree St NE Atlanta, GA",
+        "phone": "(404) 829-4389",
+        "websiteurl": "www.brashcoffee.com",
+        "logo": "images/resized/brash.jpg",
+        "order": 6,
+        "membershiplevel": "Gold",
+        "slogan": "Coffee like never before."
+
+    },
+
+    {
+        "company" : "Savannah Bee",
+        "address" : "1100 Howell Mill Rd NW Ste A01 Atlanta, GA 30318",
+        "phone": "(404) 343-1568",
+        "websiteurl": "www.savannahbee.com",
+        "logo": "images/resized/savannah.jpg",
+        "order": 7,
+        "membershiplevel": "Silver",
+        "slogan": "Count on us to take care of you!"
+
+    },
+
+    {
+        "company" : "Peachtree Petals",
+        "address" : "1450 W Peachtree St NW Atlanta, GA 30309",
+        "phone": "(678) 336-1195",
+        "websiteurl": "www.peachtreepetals.com",
+        "logo": "images/resized/peachtreepetals.jpg",
+        "order": 8,
+        "membershiplevel": "Basic",
+        "slogan": "Smells fresh forever!"
+
+    },
+
+    {
+        "company" : "The Cook's Warehouse",
+        "address" : "1544 Piedmont Ave NE Ste 403-R Atlanta, GA 30324",
+        "phone": "(404) 815-4993",
+        "websiteurl": "www.cookswarehouse.com",
+        "logo": "images/resized/cookware.jpg",
+        "order": 9,
+        "membershiplevel": "Gold",
+        "slogan": "Smells fresh forever!"
+
+    },
+    {
+        "company" : "Peachtree Petals",
+        "address" : "1450 W Peachtree St NW Atlanta, GA 30309",
+        "phone": "(678) 336-1195",
+        "websiteurl": "www.peachtreepetals.com",
+        "logo": "images/resized/peachtreepetals.jpg",
+        "order": 10,
+        "membershiplevel": "Basic",
+        "slogan": "Smells fresh forever!"
+
+    },
+    {
+        "company" : "Peachtree Petals",
+        "address" : "1450 W Peachtree St NW Atlanta, GA 30309",
+        "phone": "(678) 336-1195",
+        "websiteurl": "www.peachtreepetals.com",
+        "logo": "images/resized/peachtreepetals.jpg",
+        "order": 11,
+        "membershiplevel": "Basic",
+        "slogan": "Smells fresh forever!"
+
+    },
+    {
+        "company" : "Peachtree Petals",
+        "address" : "1450 W Peachtree St NW Atlanta, GA 30309",
+        "phone": "(678) 336-1195",
+        "websiteurl": "www.peachtreepetals.com",
+        "logo": "images/resized/peachtreepetals.jpg",
+        "order": 12,
+        "membershiplevel": "Basic",
+        "slogan": "Smells fresh forever!"
+
+    },
+    {
+        "company" : "Cycle Techniques",
+        "address" : "6014 Sandy Springs Cir Ste B Atlanta, GA 30328",
+        "phone": "(404) 432-5841",
+        "websiteurl": "www.cycletechnique.com",
+        "logo": "images/resized/cycletech.jpg",
+        "order": 13,
+        "membershiplevel": "Silver",
+        "slogan": "We'll get you there!"
+
+    },
+    {
+        "company" : "The Cook's Warehouse",
+        "address" : "1544 Piedmont Ave NE Ste 403-R Atlanta, GA 30324",
+        "phone": "(404) 815-4993",
+        "websiteurl": "www.cookswarehouse.com",
+        "logo": "images/resized/cookware.jpg",
+        "order": 14,
+        "membershiplevel": "Gold",
+        "slogan": "Smells fresh forever!"
+
+    },
+    {
+        "company" : "Savannah Bee",
+        "address" : "1100 Howell Mill Rd NW Ste A01 Atlanta, GA 30318",
+        "phone": "(404) 343-1568",
+        "websiteurl": "www.savannahbee.com",
+        "logo": "images/resized/savannah.jpg",
+        "order": 15,
+        "membershiplevel": "Silver",
+        "slogan": "Count on us to take care of you!"
+
+    },
+    {
+        "company" : "YOUNG BLOOD",
+        "address" : "777 Memorial Dr SE Ste A104A Atlanta, GA 30316",
+        "phone": "(404) 358-1286",
+        "websiteurl": "www.youngbloodboutique.com",
+        "logo": "images/resized/young_blood.jpg",
+        "order": 16,
+        "membershiplevel": "Gold",
+        "slogan": "We are young at heart!"
+
+    }
+
+]
