@@ -147,6 +147,12 @@ body {
         bottom: 80px;
     }
 
+    .button-bu {
+        position: absolute;
+        right: 80px;
+        bottom: 80px;
+    }
+
 
     nav button {
         display: none;

@@ -184,6 +184,19 @@ h1 {
     transition: transform 0.3s;
 }
 
+.button {
+    position: static;
+    bottom: 30px;
+    right: 20px;
+    background-color: #5e6472;
+    color: #ffffff;
+    border: none;
+    padding: 5px;
+    transform: scale(1);
+    transition: transform 0.3s;
+}
+
+
 .button-button:hover {
     transform: scale(1.03);
     background-color: #5e6472;
