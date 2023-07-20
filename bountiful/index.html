@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods</title>
+    <meta name="description" content="Website for Bountiful foods">
+    <meta name="author" content="Olagoke Amiola">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/basebountiful.css">
+    <link rel="stylesheet" href="styles/mediumbountiful.css">
+    <link rel="stylesheet" href="styles/largebountiful.css">
+   
+    <!--#006100  green background color ,  #fff (white)foreground color.    , #FFF5DB (light yellow) foreground and #C1121F (red)background for hover effects,  Passes acccessibility-->
+</head>
+
+<body>
+    <header> <!--Start - Header-->
+        <div class="logoandnav"> <!--start div that encloses the logo name and the nav-->
+
+            <div class="logo-div"> <!--start div that encloses the logo only -->
+                <a href="index.html"><img src="images/Bountiful_Foods-1.png" alt="brand logo"></a>
+
+            </div> <!--End div that encloses the logo only -->
+
+            <div class="nav-div"> <!--start div that encloses the nav only-->
+                <nav>
+                    <button id="hamburgerButton"><span>&#9776;</span><span>X</span></button>
+                    <ul id="primary-navigation">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="fresh.html">Fresh</a></li>
+
+                    </ul>
+                </nav>
+            </div><!--End div that encloses the nav only-->
+
+        </div> <!--End div that encloses the logo name and the nav-->
+
+
+    </header> <!--End - Header-->
+
+    <main> <!--Start - Main-->
+        
+        <div> <!--Start div that encloses all divs in the main-->
+            <div class="main-hero"> <!--Start Main div that encloses........-->
+                <div class="heroimage">
+                    <img src="images/heroimage.jpeg" alt="hero image">
+                </div>
+
+                <h1 id="header-text">Welcome to Boutiful Foods</h1>
+            </div> <!--End Main div that encloses........-->
+           
+
+            <div class="gallery"> <!--Start div for Gallery-->
+                <div class="specialty-drinks-and-fruits"> <!--start div that encloses all specialty drinks-->
+                    <div>
+                        <a href="fresh.html"> <img src="images/1stspecialty.jpeg" alt=""></a>
+                    </div>
+                    <div>
+                        <a href="fresh.html"><img src="images/2ndSpecialty.jpeg" alt=""></a>
+                    </div>
+                    <div>
+                        <a href="fresh.html"><img src="images/3rdspecialty.jpeg" alt=""></a>
+                    </div>
+                    <div>
+                        <a href="fresh.html"><img src="images/5specialty.jpeg" alt=""></a>
+                    </div>
+
+                    <div>
+                        <a href="fresh.html"><img src="images/apples.jpeg" alt="apples"></a>
+                    </div>
+                    <div>
+                        <a href="fresh.html"><img src="images/oranges.jpeg" alt="oranges"></a>
+                    </div>
+                    <div>
+                        <a href="fresh.html"><img src="images/pineapple.jpeg" alt="pineapple"></a>
+                    </div>
+                    <div>
+                        <a href="fresh.html"><img src="images/strawberry.jpeg" alt="strawberry"></a>
+                    </div>
+
+                    <!--The last four-->
+                    <div>
+                        <a href="fresh.html"> <img src="images/pawpaw.jpeg" alt=""></a>
+                    </div>
+                    <div>
+                        <a href="fresh.html"><img src="images/banana.jpeg" alt=""></a>
+                    </div>
+                    <div>
+                        <a href="fresh.html"> <img src="images/4thspecialty.jpeg" alt=""></a>
+                    </div>
+                    <div>
+                        <a href="fresh.html"><img src="images/another-unknown-fruit.jpeg" alt=""></a>
+                    </div>
+
+                    <div>
+                        <a href="fresh.html"> <img src="images/bowl-of-fruits.jpeg" alt=""></a>
+                    </div>
+                    <div>
+                        <a href="fresh.html"><img src="images/second-unknown.jpeg" alt=""></a>
+                    </div>
+                    <div>
+                        <a href="fresh.html"><img src="images/orange-lookalike.jpeg" alt=""></a>
+                    </div>
+                    <div>
+                        <a href="fresh.html"><img src="images/unknown.jpeg" alt=""></a>
+                    </div>
+                </div> <!--End div for speciality drinks and fruits-->
+            </div> <!--End div for Gallery-->
+
+
+            <div class="order"> <!--Start div that encloses the ORDER button-->
+                <a href="fresh.html">Order</a>
+            </div> <!--End div that encloses the ORDER button-->
+
+            <div class="order-summary"> <!--Start div that encloses the information card about total number of drinks-->
+                <h3>Order Total</h3>
+                <br>
+                <br>
+                <p>The total number of specialty drinks ordered</p>
+                <br>
+                <hr>
+                <br>
+                <br>
+                <br>
+                <p id="info-card"></p>
+
+            </div> <!--End div that encloses the information card about total number of drinks-->
+
+            <div class="weatherandcoastal-info">
+                <!-- Parent Start div that encloses the weather cards and info about coastal areas-->
+
+
+                <div class="weather-info"> <!--Child start div weather card-->
+                    <h3>Weather</h3>
+                    <div class="tempandweathericon-info">
+                        <img src="#" id="weathericon" alt="weather icon">
+                        <h3 id="temp">Important Information</h3>
+                    </div>
+                    <p id="weather-description"></p>
+                    <br>
+                    <div class="humidity">
+                        <p>Humidity: </p>
+                        <p class="humid"><span id="humidity-value"></span>%</p>
+                    </div>
+                    <hr>
+                    <h3>Temp forecast</h3>
+                    <div class="threedayforecast"> <!--Start div 3 day forecast-->
+                        <div class="allfirstdayweather">
+                           
+                            <p id="firstdaytemp"></p>
+                        </div>
+
+                        <div class="allseconddayweather">
+                          
+                            <p id="seconddaytemp"></p>
+                        </div>
+
+                        <div class="allthirddayweather">
+                          
+                            <p id="thirddaytemp"></p>
+                        </div>
+                    </div> <!--End div 3 day forecast-->
+
+                </div> <!--child end div weather card-->
+
+                <div class="coastal-info"> <!--Child Start div coastal info-->
+                    <h3>What you should know</h3>
+                    <p>Carlsbad is a beautiful coastal city in Southern California that boasts
+                        some of the most stunning beaches and coastal landscapes in the region.
+                        For tourists looking to explore this gorgeous city and all it has to offer,
+                        here is some key information about the Carlsbad coastal land.
+                        The most popular attraction in Carlsbad is the beach. Carlsbad State Beach
+                        is a beautiful and expansive stretch of sand that is perfect for swimming,
+                        sunbathing, and surfing.
+                    </p>
+                    <p>Visitors can also take a stroll along the boardwalk
+                        or enjoy a picnic on the beach. Another popular beach in Carlsbad is South Ponto Beach,
+                        which is known for its picturesque cliffs and rock formations.
+                        For nature enthusiasts, the Batiquitos Lagoon is a must-visit destination.
+                        This beautiful and serene lagoon is home to a wide variety of plant and animal species
+                        and offers visitors a chance to explore the natural beauty of the region.</p>
+                </div> <!--child End div coastal info-->
+            </div> <!-- Parent End div that encloses the weather cards and info about coastal areas-->
+
+
+
+
+
+
+
+        </div> <!--End div that encloses all divs in the main-->
+    </main> <!--Start - Main-->
+
+
+    <footer> <!--Start - Footer-->
+        <div class="footer-all">
+            <!--Start div that encloses the brand logo, contact info, newsletter, social media icons-->
+            <div> <!--Start div for brand logo and address-->
+                <div class="footer-logo"> <!--start div for brand logo-->
+                    <a href="index.html"><img src="images/Bountiful_Foods-1.png" alt="brand logo"></a>
+                </div> <!--End div for brand logo-->
+
+                <div class="footer-address"> <!--Start div for address-->
+                    <p>(779) 404-3921</p>
+                    <a href="#">info@bountifulfoods.com</a>
+                    <p>500 Bountiful Avenue</p>
+                    <p>San Francisco, CA 90321</p>
+                </div> <!--End div for address-->
+
+            </div> <!--End div for brand logo and address-->
+
+
+            <div class="footer-navigation"> <!--Start div for footer navigation-->
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="fresh.html">Fresh</a></li>
+
+                </ul>
+            </div> <!--End div for footer navigation-->
+
+
+
+            <div class="social-media"> <!--Start div for social media icon-->
+                <a href="https://www.facebook.com/"><img src="images/facebook_icon.png" alt="Facebook Logo"></a>
+                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin"><img src="images/twitter_icon.png" alt="Twitter Logo"></a>
+                <a href="https://www.instagram.com/"><img src="images/instagram_icon.png" alt="instagram_icon"></a>
+
+            </div> <!--End div for social media icon-->
+
+            <div class="copyright">
+                <p>&copy; Olagoke Amiola</p>
+                <p id="currently">Last Modified Date:</p>
+            </div>
+
+
+        </div> <!--End div that encloses the brand logo, contact info, newsletter, social media icons-->
+    </footer> <!--Start - Footer-->
+
+
+
+   
+
+    <script src="script/weather.js"></script>
+    <script src="script/fruitmix.js"></script>
+    
+    <script src="script/shared.js"></script>
+</body>
+
+</html>

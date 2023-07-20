@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods</title>
+    <meta name="description" content="Website for Bountiful foods">
+    <meta name="author" content="Olagoke Amiola">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/basebountiful.css">
+    <link rel="stylesheet" href="styles/mediumbountiful.css">
+    <link rel="stylesheet" href="styles/largebountiful.css">
+    <!--#006100  green background color ,  #fff (white)foreground color.    , #FFF5DB (light yellow) foreground and #C1121F (red)background for hover effects,  Passes acccessibility-->
+</head>
+
+<body>
+    <header> <!--Start - Header-->
+        <div class="logoandnav"> <!--start div that encloses the logo name and the nav-->
+
+            <div class="logo-div"> <!--start div that encloses the logo only -->
+                <a href="index.html"><img src="images/Bountiful_Foods-1.png" alt="brand logo"></a>
+
+            </div> <!--End div that encloses the logo only -->
+
+            <div class="nav-div"> <!--start div that encloses the nav only-->
+                <nav>
+                    <button id="hamburgerButton"><span>&#9776;</span><span>X</span></button>
+                    <ul id="primary-navigation">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="#">Fresh</a></li>
+                
+                   
+                    </ul>
+                </nav>
+            </div><!--End div that encloses the nav only-->
+
+        </div> <!--End div that encloses the logo name and the nav-->
+
+
+    </header> <!--End - Header-->
+
+    <main> <!--Start - Main-->
+        <div class="headingandform"> <!--start div that encloses the heading and form-->
+            <h3>Build Your Specialty Drink</h3>
+
+            <div class="container">
+                <form id="order-form">
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="first-name">First Name</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" id="first-name" name="firstname" placeholder="Your name.." required>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="email">Email</label>
+                    </div>
+
+                    <div class="col-75">
+                      <input type="text" id="email" name="email" placeholder="Email.." required>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="phone">Phone Number</label>
+                    </div>
+
+                    <div class="col-75">
+                      <input type="text" id="phone" name="telephone" placeholder="Phone Number.." required>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="fruits1">Fruit Option 1</label>
+                    </div>
+                    <div class="col-75">
+                      <select id="fruits1" name="fruits">
+                       
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="fruits2">Fruit Option 2</label>
+                    </div>
+                    <div class="col-75">
+                      <select id="fruits2" name="fruits">
+                        
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="fruits3">Fruit Option 3</label>
+                    </div>
+                    <div class="col-75">
+                      <select id="fruits3" name="fruits">
+                        <!--<option value="australia">Australia</option>-->
+                        
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="special-instructions">Special Instructions</label>
+                    </div>
+                    <div class="col-75">
+                      <textarea id="special-instructions" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <input type="submit" value="Submit">
+                  </div>
+                </form>
+                <pre id="output"></pre>
+                <hr>
+                <!--<p id="info-card"></p>    displays the total number of speciality drinks but not on this page--> 
+              </div>
+
+        </div> <!--End div that encloses the heading and form-->
+    </main> <!--Start - Main-->
+
+
+    <footer> <!--Start - Footer-->
+        <div class="footer-all">
+            <!--Start div that encloses the brand logo, contact info, newsletter, social media icons-->
+            <div> <!--Start div for brand logo and address-->
+                <div class="footer-logo"> <!--start div for brand logo-->
+                    <a href="index.html"><img src="images/Bountiful_Foods-1.png" alt="brand logo"></a>
+                </div> <!--End div for brand logo-->
+
+                <div class="footer-address"> <!--Start div for address-->
+                    <p>(779) 404-3921</p>
+                    <a href="#">info@bountifulfoods.com</a>
+                    <p>500 Bountiful Avenue</p>
+                    <p>San Francisco, CA 90321</p>
+                </div> <!--End div for address-->
+
+            </div> <!--End div for brand logo and address-->
+
+           
+
+            <div class="footer-navigation"> <!--Start div for footer navigation-->
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="fresh.html">Fresh</a></li>
+            
+                </ul>
+            </div> <!--End div for footer navigation-->
+
+
+
+            <div class="social-media"> <!--Start div for social media icon-->
+                <a href="#"><img src="images/facebook_icon.png" alt="Facebook Logo"></a>
+                <a href="#"><img src="images/twitter_icon.png" alt="Twitter Logo"></a>
+                <a href="#"><img src="images/instagram_icon.png" alt="instagram_icon"></a>
+
+            </div> <!--End div for social media icon-->
+
+            <div class="copyright">
+                <p>&copy; Olagoke Amiola</p>
+                <p id="currently">Last Modified Date:</p>
+            </div>
+
+
+        </div> <!--End div that encloses the brand logo, contact info, newsletter, social media icons-->
+    </footer> <!--Start - Footer-->
+    <script src="script/weather.js"></script>
+    <script src="script/fruitmix.js"></script>
+    <script src="script/shared.js"></script>
+</body>
+
+</html>

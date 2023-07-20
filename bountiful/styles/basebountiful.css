@@ -1,0 +1,414 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #006100;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: .8rem 2vw;
+}
+
+nav ul li a:hover {
+    color: #FFF5DB;
+    background-color: #C1121F;
+}
+
+.logo-div {
+    /*brand-logo in header*/
+    margin-top: -20px;
+
+}
+
+.logo-div img {
+    width: 200px;
+
+}
+
+.logoandnav {
+    /*logo and nav in header*/
+    display: flex;
+}
+
+.nav-div {
+    /*navigation in header*/
+    margin-top: 30px;
+    margin-left: 65px;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    margin: .1rem 2vw;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+nav ul.open {
+    display: block;
+}
+
+#hamburgerButton {
+    margin-top: 5px;
+}
+
+#hamburgerButton span:nth-child(1) {
+    display: block;
+}
+
+#hamburgerButton span:nth-child(2) {
+    display: none;
+}
+
+#hamburgerButton.open span:nth-child(1) {
+    display: none;
+}
+
+#hamburgerButton.open span:nth-child(2) {
+    display: block;
+}
+
+/*MAIN CSS*/
+.main-hero img {
+    /*This controls the video src in all the viewports*/
+    width: 100%
+}
+
+.main-hero {
+    position: relative;
+
+}
+
+#header-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #C1121F;
+    font-family: 'Miltonian Tattoo', 'Poppins';
+    font-size: 1.2rem
+}
+
+.gallery {
+    background-color: #FFF5DB;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.gallery img {
+    width: 100%;
+}
+
+.specialty-drinks-and-fruits {
+    margin: 25px 40px 25px 20px;
+}
+
+.specialty-drinks-and-fruits img {
+    margin: 10px;
+}
+
+.order {
+    background-color: #006100;
+    width: 80%;
+    padding: 20px;
+    border: 1px solid #006100;
+    margin: 20px 0px 20px 35px;
+    text-align: center;
+
+}
+
+.order a {
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+    border: 1px solid #C1121F;
+    color: #fff;
+    background-color: #C1121F;
+
+}
+
+.order-summary {
+    background-color: #FFF5DB;
+    width: 85%;
+    padding: 75px;
+    margin: 20px 20px 20px 25px;
+}
+
+.order-summary p,
+.order-summary h3 {
+    text-align: center;
+    margin-top: -50px;
+}
+
+.weatherandcoastal-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.weather-info {
+    background-color: #FFF5DB;
+    width: 85%;
+    padding: 75px;
+    margin: 20px 20px 20px 25px;
+    text-align: center;
+}
+
+.humidity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.humid {
+    margin-left: 10px;
+}
+
+.tempandweathericon-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.threedayforecast {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.allfirstdayweather,
+.allseconddayweather,
+.allthirddayweather {
+    display: flex;
+    flex-direction: row;
+}
+
+.coastal-info {
+    background-color: #FFF5DB;
+    width: 85%;
+    padding: 30px;
+    margin: 20px 20px 20px 25px;
+}
+
+/*Start of About Page*/
+.about_allcontent {
+    margin: 10px;
+}
+
+.historical_info {
+    margin: 30px;
+    text-align: center;
+}
+
+.first_second_founder {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    text-align: center;
+}
+
+.first_founder img {
+    width: 100%;
+}
+
+.first_founder p {
+    text-align: center;
+}
+
+.second_founder img {
+    width: 100%;
+}
+
+.second_founder p {
+    text-align: center;
+}
+
+.about_contactinfo_googlemap {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+
+}
+
+.about_contactinfo a {
+    text-decoration: none;
+}
+
+.about_contactinfo a:hover {
+    color: #006100;
+}
+
+.about_googlemap img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/*End of About Page*/
+
+/*start of Fresh page*/
+.headingandform {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Style inputs, select elements and textareas */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+
+}
+
+/* Style the submit button */
+input[type=submit] {
+    background-color: #006100;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    color: #fff;
+    background-color: #C1121F;
+}
+
+/* Style the container */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*End of Fresh page*/
+
+
+
+
+
+/*END OF MAIN CSS*/
+
+
+
+/*FOOTER CSS*/
+
+footer {
+    background-color: #006100;
+    text-align: center;
+    color: #fff;
+
+
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.social-media a {
+    color: #fff;
+
+}
+
+.footer-navigation ul li {
+    list-style-type: none;
+    font-size: 1.1rem;
+    justify-content: space-between;
+    color: #fff;
+    margin: 40px 60px 40px 40px;
+}
+
+.footer-navigation ul li a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.footer-navigation ul li a:hover {
+    color: #fff;
+    background-color: #C1121F;
+    padding: 10px;
+}
+
+.footer-address a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-address {
+    margin: 0px 0px 30px 0px;
+}
+
+
+
+.footer-logo img {
+    width: 300px;
+}

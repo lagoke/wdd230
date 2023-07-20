@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"path": "../chamber"
+		},
+		{
+			"path": "../lesson7"
+		},
+		{
+			"path": "../lesson8"
+		},
+		{
+			"path": "../chamber-full"
+		},
+		{
+			"path": "../lesson9"
+		},
+		{
+			"path": "../../cse212"
+		},
+		{
+			"path": "../lesson10"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "bountiful"
+	}
+}
